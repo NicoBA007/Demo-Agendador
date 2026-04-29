@@ -1,0 +1,107 @@
+{
+  "business": {
+    "name": "Elegance Barber Studio",
+    "whatsapp_number": "59170000000",
+    "whatsapp_message": "¡Hola! Vengo de la página web y quiero agendar una cita.",
+    "location": "Av. Principal 123, Zona Centro, Cochabamba",
+    "phone": "+591 4 4444444",
+    "schedule": "Lunes a Sábado: 09:00 - 20:00",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5101683415844!2d-66.1519!3d-17.3935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIzJzM2LjYiUyA2NsKwMDknMDYuOCJX!5e0!3m2!1ses!2sbo!4v1714392000000!5m2!1ses!2sbo"
+  },
+  "theme": {
+    "mode": "dark",
+    "variables": {
+      "--background": "#09090b",
+      "--foreground": "#fafafa",
+      "--primary": "#ea580c",
+      "--primary-foreground": "#fafafa",
+      "--card": "#18181b",
+      "--card-foreground": "#fafafa",
+      "--border": "#27272a"
+    }
+  },
+  "hero": {
+    "title": "Estilo y Precisión a tu Medida",
+    "subtitle": "Reserva tu cita hoy y transforma tu imagen con los mejores profesionales.",
+    "button_text": "Agendar Ahora",
+    "bg_image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2000"
+  },
+  "benefits": [
+    {
+      "icon": "Award",
+      "title": "Profesionales Expertos",
+      "description": "Más de 10 años de experiencia perfeccionando nuestro arte para darte tu mejor versión."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Higiene Garantizada",
+      "description": "Herramientas esterilizadas y protocolos estrictos de limpieza para tu total seguridad."
+    },
+    {
+      "icon": "Clock",
+      "title": "Atención Puntual",
+      "description": "Respetamos tu tiempo al máximo. Sin largas esperas en nuestro salón."
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800",
+    "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=800",
+    "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800",
+    "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800",
+    "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800",
+    "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800"
+  ],
+  "staff": [
+    {
+      "name": "Carlos M.",
+      "role": "Master Barber",
+      "image": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?q=80&w=500"
+    },
+    {
+      "name": "Ana G.",
+      "role": "Especialista Facial",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=500"
+    },
+    {
+      "name": "Daniel R.",
+      "role": "Barbero Clásico",
+      "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=500"
+    }
+  ],
+  "services": [
+    {
+      "category": "Servicios de Cabello",
+      "items": [
+        { "name": "Corte Clásico", "description": "Uso de tijera y peine para estilos tradicionales.", "price": "50 Bs", "duration": "30 min" },
+        { "name": "Degradados (Fades)", "description": "Transición suave con máquina (Low, Mid, High o Skin Fade).", "price": "60 Bs", "duration": "40 min" },
+        { "name": "Corte con Máquina (Buzz Cut)", "description": "Un estilo uniforme y corto en toda la cabeza.", "price": "40 Bs", "duration": "20 min" },
+        { "name": "Perfilado de Contornos", "description": "Definición de frente, patillas y nuca con navaja o trimmer.", "price": "25 Bs", "duration": "15 min" }
+      ]
+    },
+    {
+      "category": "Cuidado de la Barba",
+      "items": [
+        { "name": "Arreglo de Barba", "description": "Recorte y diseño de la forma según la estructura del rostro.", "price": "35 Bs", "duration": "20 min" },
+        { "name": "Afeitado Tradicional", "description": "Navaja libre con toallas calientes y espuma clásica anti-irritación.", "price": "50 Bs", "duration": "30 min" },
+        { "name": "Perfilado de Barba", "description": "Definición exacta de las líneas en las mejillas y el cuello.", "price": "25 Bs", "duration": "15 min" },
+        { "name": "Hidratación", "description": "Aplicación de aceites o bálsamos para suavizar el vello y la piel.", "price": "30 Bs", "duration": "15 min" }
+      ]
+    },
+    {
+      "category": "Tratamientos Capilares y Faciales",
+      "items": [
+        { "name": "Lavado y Peinado", "description": "Uso de ceras, pomadas o geles para finalizar tu look.", "price": "20 Bs", "duration": "15 min" },
+        { "name": "Exfoliación Facial", "description": "Limpieza profunda para eliminar células muertas antes del afeitado.", "price": "80 Bs", "duration": "30 min" },
+        { "name": "Masaje Capilar", "description": "Realizado durante el lavado para estimular y relajar al máximo.", "price": "30 Bs", "duration": "15 min" },
+        { "name": "Camuflaje de Canas", "description": "Tintura suave y rápida para que el cabello o barba luzcan naturales.", "price": "90 Bs", "duration": "40 min" }
+      ]
+    },
+    {
+      "category": "Otros Servicios Especializados",
+      "items": [
+        { "name": "Diseños (Hair Tattoo)", "description": "Líneas, formas geométricas o dibujos artísticos con navaja.", "price": "40 Bs", "duration": "20 min" },
+        { "name": "Depilación con Cera", "description": "Limpieza rápida en zonas pequeñas como nariz, orejas o cejas.", "price": "30 Bs", "duration": "15 min" }
+      ]
+    }
+  ]
+}
