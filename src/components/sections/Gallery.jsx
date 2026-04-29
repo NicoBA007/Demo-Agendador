@@ -24,7 +24,7 @@ export const Gallery = () => {
       // Fotos 2 y 3: Ocupan 1 columna y 1 fila cada una.
       return "col-span-1 md:col-span-1 row-span-1";
     }
-    
+
     // Regla para 6 fotos (Tu dibujo inicial)
     const patternIndex = index % 6;
     if (patternIndex === 0 || patternIndex === 3) {
@@ -45,6 +45,7 @@ export const Gallery = () => {
           >
             Nuestro Trabajo
           </motion.h2>
+          <div className="mt-4 mx-auto h-1 w-20 bg-primary rounded-full" />
         </div>
 
         <div className={containerClass}>

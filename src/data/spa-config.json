@@ -1,0 +1,118 @@
+{
+  "business": {
+    "name": "Zenith Spa & Relax",
+    "whatsapp_number": "59170000001",
+    "whatsapp_message": "¡Hola! Quisiera agendar un momento de relajación en el Spa.",
+    "location": "El Prado, Edificio Torres, Cochabamba",
+    "phone": "+591 4 4555555",
+    "schedule": "Martes a Domingo: 10:00 - 21:00",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.65!2d-66.16!3d-17.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIyJzQ4LjAiUyA2NsKwMDknMzYuMCJX!5e0!3m2!1ses!2sbo!4v1600000000000!5m2!1ses!2sbo",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "tiktok": "https://tiktok.com"
+    }
+  },
+  "seo": {
+    "title": "Zenith Spa | Oasis de Relajación",
+    "description": "Desconecta del estrés y renueva tu energía con tratamientos holísticos en Cochabamba.",
+    "og_image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200",
+    "favicon_emoji": "🌿"
+  },
+  "theme": {
+    "mode": "light",
+    "variables": {
+      "--background": "#fafaf9",
+      "--foreground": "#1c1917",
+      "--primary": "#84a59d",
+      "--primary-foreground": "#ffffff",
+      "--card": "#ffffff",
+      "--card-foreground": "#1c1917",
+      "--border": "#e7e5e4"
+    }
+  },
+  "hero": {
+    "title": "Un Oasis de Paz en la Ciudad",
+    "subtitle": "Desconecta del estrés y renueva tu energía con nuestros tratamientos holísticos.",
+    "button_text": "Reservar mi Día",
+    "bg_image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2000"
+  },
+  "benefits": [
+    {
+      "icon": "Flower2",
+      "title": "Productos Orgánicos",
+      "description": "Utilizamos esencias y aceites 100% naturales para cuidar tu piel y el medio ambiente."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Ambiente Zen",
+      "description": "Música, aromaterapia y temperatura controlada para una inmersión total."
+    },
+    {
+      "icon": "Heart",
+      "title": "Atención Personalizada",
+      "description": "Cada tratamiento se adapta a tus necesidades físicas y emocionales."
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=800",
+    "https://images.unsplash.com/photo-1519824145371-296894a0daa9?q=80&w=800",
+    "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=800",
+    "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800",
+    "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800",
+    "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800"
+  ],
+  "staff": [
+    {
+      "name": "Valeria S.",
+      "role": "Terapeuta Holística",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=500",
+      "description": "Maestra en técnicas de relajación profunda y aromaterapia curativa."
+    },
+    {
+      "name": "Camila R.",
+      "role": "Especialista en Piel",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=500",
+      "description": "Conocedora de la cosmética natural, enfocada en devolverle la luz a tu rostro."
+    },
+    {
+      "name": "Andrea V.",
+      "role": "Masajista Deportiva",
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=500",
+      "description": "Especialista en masajes descontracturantes y recuperación muscular."
+    }
+  ],
+  "services": [
+    {
+      "category": "Masajes Relajantes",
+      "items": [
+        { "name": "Masaje Sueco", "description": "Técnica suave para mejorar la circulación y relajar la tensión superficial.", "price": "120 Bs", "duration": "60 min" },
+        { "name": "Masaje con Piedras Calientes", "description": "Calor penetrante para derretir nudos y estrés muscular.", "price": "180 Bs", "duration": "90 min" }
+      ]
+    },
+    {
+      "category": "Cuidado Facial",
+      "items": [
+        { "name": "Limpieza Facial Profunda", "description": "Extracción, exfoliación y mascarilla hidratante.", "price": "150 Bs", "duration": "60 min" },
+        { "name": "Lifting Facial Japonés", "description": "Técnica manual rejuvenecedora para tensar la piel.", "price": "200 Bs", "duration": "45 min" }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Lorena M.",
+      "rating": 5,
+      "text": "Salí flotando de este lugar. El masaje con piedras calientes es una maravilla absoluta, el ambiente es súper tranquilo."
+    },
+    {
+      "name": "Daniel C.",
+      "rating": 5,
+      "text": "Fui por una limpieza facial profunda y noté el cambio al instante. Camila tiene manos mágicas."
+    },
+    {
+      "name": "Silvia R.",
+      "rating": 5,
+      "text": "El mejor regalo que me he dado en meses. Te atienden de lujo desde que entras por la puerta."
+    }
+  ]
+}

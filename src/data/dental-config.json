@@ -1,0 +1,118 @@
+{
+  "business": {
+    "name": "Sonrisa Perfecta Odontología",
+    "whatsapp_number": "59170000002",
+    "whatsapp_message": "¡Hola! Necesito agendar una valoración dental.",
+    "location": "Av. América y Libertador, Zona Norte, Cochabamba",
+    "phone": "+591 4 4666666",
+    "schedule": "Lunes a Viernes: 08:30 - 19:30",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.65!2d-66.16!3d-17.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIyJzQ4LjAiUyA2NsKwMDknMzYuMCJX!5e0!3m2!1ses!2sbo!4v1600000000000!5m2!1ses!2sbo",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "tiktok": "https://tiktok.com"
+    }
+  },
+  "seo": {
+    "title": "Sonrisa Perfecta | Clínica Odontológica",
+    "description": "Tecnología 3D y especialistas dedicados a la salud y estética de tus dientes en Cochabamba.",
+    "og_image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1200",
+    "favicon_emoji": "🦷"
+  },
+  "theme": {
+    "mode": "light",
+    "variables": {
+      "--background": "#ffffff",
+      "--foreground": "#0f172a",
+      "--primary": "#0ea5e9",
+      "--primary-foreground": "#ffffff",
+      "--card": "#f8fafc",
+      "--card-foreground": "#0f172a",
+      "--border": "#e2e8f0"
+    }
+  },
+  "hero": {
+    "title": "Tu Mejor Sonrisa Empieza Aquí",
+    "subtitle": "Tecnología de punta y especialistas dedicados a la salud y estética de tus dientes.",
+    "button_text": "Agendar Valoración",
+    "bg_image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2000"
+  },
+  "benefits": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Clínica Certificada",
+      "description": "Cumplimos con las normas más estrictas de bioseguridad internacional."
+    },
+    {
+      "icon": "Activity",
+      "title": "Tecnología 3D",
+      "description": "Diagnósticos precisos con tomografía y escáner intraoral sin dolor."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Cero Dolor",
+      "description": "Anestesia computarizada y técnicas modernas para una experiencia cómoda."
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800",
+    "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?q=80&w=800",
+    "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800",
+    "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=800",
+    "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?q=80&w=800",
+    "https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=800"
+  ],
+  "staff": [
+    {
+      "name": "Dr. Fernando L.",
+      "role": "Cirujano Maxilofacial",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=500",
+      "description": "Especialista en implantes dentales y cirugía compleja con enfoque sin dolor."
+    },
+    {
+      "name": "Dra. Lucía M.",
+      "role": "Especialista en Ortodoncia",
+      "image": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=500",
+      "description": "Experta en alineación dental invisible (Invisalign) y brackets estéticos."
+    },
+    {
+      "name": "Dra. Sofía P.",
+      "role": "Odontopediatra",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=500",
+      "description": "Atención especializada y amigable para el cuidado dental de niños y adolescentes."
+    }
+  ],
+  "services": [
+    {
+      "category": "Estética Dental",
+      "items": [
+        { "name": "Blanqueamiento Láser", "description": "Sonrisa más blanca en una sola sesión sin dañar el esmalte.", "price": "400 Bs", "duration": "45 min" },
+        { "name": "Carillas de Porcelana", "description": "Diseño de sonrisa permanente y natural a tu medida.", "price": "Consultar", "duration": "Varias sesiones" }
+      ]
+    },
+    {
+      "category": "Odontología General",
+      "items": [
+        { "name": "Profilaxis (Limpieza)", "description": "Eliminación de sarro y placa bacteriana con ultrasonido.", "price": "120 Bs", "duration": "30 min" },
+        { "name": "Resinas Estéticas", "description": "Restauración de caries con materiales del mismo color del diente.", "price": "150 Bs", "duration": "40 min" }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Carla P.",
+      "rating": 5,
+      "text": "Le tenía pánico al dentista, pero el Dr. Fernando y su equipo me hicieron sentir súper cómoda. ¡Cero dolor!"
+    },
+    {
+      "name": "Mauricio B.",
+      "rating": 5,
+      "text": "Mi tratamiento de ortodoncia fue mucho más rápido de lo que pensé. Instalaciones impecables y muy modernas."
+    },
+    {
+      "name": "Valeria S.",
+      "rating": 5,
+      "text": "Llevé a mi hijo con la Dra. Sofía y fue una experiencia increíble. Muy paciente y profesional."
+    }
+  ]
+}

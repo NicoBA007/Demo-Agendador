@@ -20,10 +20,16 @@ export const Contact = () => {
             className="flex flex-col space-y-8"
           >
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl"
+              >
                 ¿Dónde encontrarnos?
-              </h2>
-              <p className="mt-4 text-lg text-foreground/70">
+              </motion.h2>
+              <div className="mt-4 h-1 w-20 bg-primary rounded-full" /> {/* Línea alineada a la izquierda */}
+              <p className="mt-6 text-lg text-foreground/70">
                 Visítanos en nuestra sucursal central y vive la experiencia {business.name}.
               </p>
             </div>

@@ -1,13 +1,17 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, MessageCircle } from 'lucide-react';
 import { useAppData } from '@/hooks/useAppData';
 
 export const Pricing = () => {
-  const { services } = useAppData();
+  // Ahora también traemos 'business' para armar el link de WhatsApp
+  const { services, business } = useAppData();
   const [openCategory, setOpenCategory] = useState(0);
 
-  if (!services || services.length === 0) return null;
+  if (!services || services.length === 0 || !business) return null;
+
+  // Generamos el link directo al chat
+  const whatsappLink = `https://wa.me/${business.whatsapp_number}?text=${encodeURIComponent(business.whatsapp_message)}`;
 
   return (
     <section id="servicios" className="relative w-full bg-background py-20 px-6 sm:py-28">
@@ -22,6 +26,7 @@ export const Pricing = () => {
           >
             Nuestros Servicios
           </motion.h2>
+          <div className="mt-4 mx-auto h-1 w-20 bg-primary rounded-full" />
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -73,13 +78,11 @@ export const Pricing = () => {
                           >
                             <div className="pr-4 max-w-[75%]">
                               <h4 className="font-semibold text-foreground">{item.name}</h4>
-                              {/* AQUÍ ESTÁ LA MAGIA: Si hay descripción, la mostramos */}
                               {item.description && (
                                 <p className="mt-1 text-sm text-foreground/70 leading-snug">
                                   {item.description}
                                 </p>
                               )}
-                              {/* La duración se vuelve un subtítulo más discreto */}
                               <p className="mt-2 text-xs font-medium uppercase tracking-wider text-primary/80">
                                 ⏱ {item.duration}
                               </p>
@@ -97,6 +100,25 @@ export const Pricing = () => {
             );
           })}
         </div>
+
+        {/* --- NUEVO BOTÓN DE CALL TO ACTION --- */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4, delay: 0.2 }}
+          className="mt-12 flex justify-center"
+        >
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex h-14 items-center justify-center overflow-hidden rounded-full bg-transparent border-2 border-primary px-8 text-base font-semibold text-primary transition-all hover:bg-primary hover:text-primary-foreground shadow-sm"
+          >
+            <MessageCircle className="mr-2 h-5 w-5" />
+            Consultar Disponibilidad
+          </a>
+        </motion.div>
 
       </div>
     </section>
