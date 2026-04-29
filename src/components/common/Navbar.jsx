@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -7,6 +7,7 @@ import { useAppData } from '@/hooks/useAppData';
 export const Navbar = () => {
   const { business } = useAppData();
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
 
   const navLinks = [
     { name: 'Inicio', path: '#inicio' },
@@ -16,6 +17,24 @@ export const Navbar = () => {
     { name: 'Ubicación', path: '#ubicacion' },
   ];
 
+  // 🎯 Cerrar menú al hacer click fuera del navbar
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      setTimeout(() => {
+        document.addEventListener('click', handleClickOutside);
+      }, 0);
+      return () => {
+        document.removeEventListener('click', handleClickOutside);
+      };
+    }
+  }, [isOpen]);
+
   // 🧠 Solución Nativa de Sincronización
   const handleScroll = (e, path) => {
     e.preventDefault();
@@ -24,28 +43,44 @@ export const Navbar = () => {
     const element = document.getElementById(targetId);
 
     if (element) {
-      // 1. Calculamos la posición exacta antes de que React cierre el menú
+      // 1. Calcular ANTES de cualquier cambio de estado
       const offsetTop = element.getBoundingClientRect().top + window.scrollY - 80;
 
-      // 2. Cerramos el menú
+      // 2. Cerrar menú
       setIsOpen(false);
 
-      // 3. requestAnimationFrame alinea la orden de scroll con el ciclo de pintado del celular.
-      requestAnimationFrame(() => {
+      // 3. ESPERAR a que Framer Motion termine la animación (300ms) y LUEGO scroll
+      setTimeout(() => {
         window.scrollTo({
-          top: offsetTop
-          // OMITIMOS behavior: 'smooth' a propósito.
-          // Tu index.css ya se encarga de la suavidad. Mezclar ambos causa el bloqueo en móviles.
+          top: offsetTop,
+          behavior: 'smooth'
         });
-      });
+      }, 310); // 310ms = 300ms de la animación + 10ms buffer
+    };
+  };
+
+  
+  const handleNavClick = (e, path) => {
+    e.preventDefault();
+
+    // Extraemos solo el ID (quitamos el '#')
+    const targetId = path.replace('#', '');
+    const element = document.getElementById(targetId);
+
+    // Si la sección existe, el navegador toma el control y hace el scroll
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
+
+    // Finalmente, cerramos el menú
+    setIsOpen(false);
   };
 
   return (
     <nav
-      className={`fixed top-0 z-50 w-full transition-all duration-300 backdrop-blur-lg supports-backdrop-filter:bg-background/60 ${
-        isOpen ? 'bg-background/95 border-transparent shadow-2xl' : 'bg-background/95 border-b border-border'
-      }`}
+      ref={navRef}
+      className={`fixed top-0 z-50 w-full transition-all duration-300 backdrop-blur-lg supports-backdrop-filter:bg-background/60 ${isOpen ? 'bg-background/95 border-transparent shadow-2xl' : 'bg-background/95 border-b border-border'
+        }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 relative z-10">
 
