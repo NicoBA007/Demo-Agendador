@@ -18,7 +18,7 @@ export const Hero = () => {
         <img
           src={hero.bg_image}
           alt="Principal"
-          className="h-full w-full object-cover object-center"
+          className="h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
       </div>
