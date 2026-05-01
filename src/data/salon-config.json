@@ -1,0 +1,273 @@
+{
+  "business": {
+    "name": "Elegance Beauty Salon",
+    "whatsapp_number": "59170000000",
+    "whatsapp_message": "¡Hola! Vengo de la página web y quiero agendar una cita para embellecer mi look.",
+    "location": "Av. Principal 123, Zona Centro, Cochabamba",
+    "phone": "+591 4 4444444",
+    "schedule": "Lunes a Sábado: 09:00 - 20:00",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5101683415844!2d-66.1519!3d-17.3935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIzJzM2LjYiUyA2NsKwMDknMDYuOCJX!5e0!3m2!1ses!2sbo!4v1714392000000!5m2!1ses!2sbo",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "tiktok": "https://tiktok.com"
+    }
+  },
+  "seo": {
+    "title": "Elegance Beauty Salon | Belleza y Lujo",
+    "description": "Reserva tu cita hoy y transforma tu belleza con nuestros servicios premium en Cochabamba.",
+    "og_image": "https://images.pexels.com/photos/3985304/pexels-photo-3985304.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "favicon_emoji": "💅"
+  },
+  "theme": {
+    "mode": "dark",
+    "variables": {
+      "--background": "#09090b",
+      "--foreground": "#fafafa",
+      "--primary": "#e91e8c",
+      "--primary-foreground": "#fafafa",
+      "--card": "#18181b",
+      "--card-foreground": "#fafafa",
+      "--border": "#27272a"
+    }
+  },
+  "hero": {
+    "title": "Belleza y Lujo a tu Medida",
+    "subtitle": "Reserva tu cita hoy y transforma tu imagen con nuestros servicios premium y profesionales.",
+    "button_text": "Agendar Ahora",
+    "bg_image": "https://images.pexels.com/photos/3985304/pexels-photo-3985304.jpeg?auto=compress&cs=tinysrgb&w=2000"
+  },
+  "benefits": [
+    {
+      "icon": "Sparkles",
+      "title": "Estilistas Expertas",
+      "description": "Más de 10 años de experiencia en belleza. Nuestro equipo se especializa en transformar tu imagen."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Productos Premium",
+      "description": "Utilizamos los mejores productos del mercado para garantizar resultados duraderos y seguros."
+    },
+    {
+      "icon": "Heart",
+      "title": "Experiencia Relajante",
+      "description": "Nuestro ambiente es tu espacio de paz y bienestar. Ven y relájate mientras te embellecemos."
+    }
+  ],
+  "gallery": [
+    "https://images.pexels.com/photos/3985335/pexels-photo-3985335.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/1328379/pexels-photo-1328379.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/3762768/pexels-photo-3762768.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/3985318/pexels-photo-3985318.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/4006693/pexels-photo-4006693.jpeg?auto=compress&cs=tinysrgb&w=800"
+  ],
+  "staff": [
+    {
+      "name": "Valentina M.",
+      "role": "Directora de Estilo",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
+      "description": "Especialista en cortes, colorimetría y tratamientos capilares con más de 12 años de experiencia en belleza."
+    },
+    {
+      "name": "Sofía L.",
+      "role": "Experta en Uñas",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+      "description": "Maestra en diseño de uñas, manicure y pedicure. Crea diseños únicos y personalizados para cada cliente."
+    },
+    {
+      "name": "Daniela R.",
+      "role": "Maquilladora Profesional",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=500",
+      "description": "Experta en maquillaje artístico, diseño de cejas y tratamientos de pestañas. Realza tu belleza natural."
+    }
+  ],
+  "services": [
+    {
+      "category": "Servicios de Cabello",
+      "items": [
+        {
+          "name": "Corte y Peinado",
+          "description": "Corte personalizado según tu tipo de cabello y forma de rostro.",
+          "price": "80 Bs",
+          "duration": "45 min"
+        },
+        {
+          "name": "Colorimetría y Tinte",
+          "description": "Cambio de color, reflejos, mechas o balayage con productos premium.",
+          "price": "150 Bs",
+          "duration": "90 min"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "description": "Hidratación profunda, keratina y nutrición para cabello dañado o seco.",
+          "price": "100 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Alisado o Permanente",
+          "description": "Alisado brasileño, japonés o permanente según tu preferencia.",
+          "price": "200 Bs",
+          "duration": "120 min"
+        },
+        {
+          "name": "Lavado y Peinado",
+          "description": "Lavado profesional con masaje y peinado con secador.",
+          "price": "40 Bs",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "category": "Servicio de Uñas",
+      "items": [
+        {
+          "name": "Manicure Clásica",
+          "description": "Limpieza, corte, limado y esmalte de calidad.",
+          "price": "60 Bs",
+          "duration": "45 min"
+        },
+        {
+          "name": "Manicure Gel",
+          "description": "Esmalte gel de larga duración con secador UV.",
+          "price": "90 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Pedicure Completa",
+          "description": "Cuidado completo de pies con exfoliación y esmalte.",
+          "price": "70 Bs",
+          "duration": "50 min"
+        },
+        {
+          "name": "Diseño de Uñas",
+          "description": "Decoración artística, piedras, brillos y diseños personalizados.",
+          "price": "50 Bs",
+          "duration": "30 min"
+        },
+        {
+          "name": "Uñas Acrílicas o Dip",
+          "description": "Extensión y diseño de uñas con acabado profesional.",
+          "price": "120 Bs",
+          "duration": "75 min"
+        }
+      ]
+    },
+    {
+      "category": "Maquillaje y Cejas",
+      "items": [
+        {
+          "name": "Maquillaje Social",
+          "description": "Maquillaje profesional para eventos especiales y ocasiones.",
+          "price": "100 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Diseño de Cejas",
+          "description": "Depilación, diseño y perfilado según tu rostro.",
+          "price": "40 Bs",
+          "duration": "30 min"
+        },
+        {
+          "name": "Lifting de Cejas",
+          "description": "Tratamiento para dar volumen y definición a las cejas.",
+          "price": "80 Bs",
+          "duration": "45 min"
+        },
+        {
+          "name": "Extensión de Pestañas",
+          "description": "Aplicación de pestañas individuales para un look dramático.",
+          "price": "150 Bs",
+          "duration": "90 min"
+        },
+        {
+          "name": "Lifting de Pestañas",
+          "description": "Levantamiento y tinte de pestañas naturales.",
+          "price": "70 Bs",
+          "duration": "45 min"
+        }
+      ]
+    },
+    {
+      "category": "Tratamientos Faciales y Skincare",
+      "items": [
+        {
+          "name": "Facial Hidratante",
+          "description": "Limpieza profunda, exfoliación e hidratación intensiva.",
+          "price": "120 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Facial Anti-Age",
+          "description": "Tratamiento rejuvenecedor con productos premium anti-envejecimiento.",
+          "price": "150 Bs",
+          "duration": "75 min"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "description": "Extracción de impurezas y puntos negros con técnicas profesionales.",
+          "price": "80 Bs",
+          "duration": "45 min"
+        },
+        {
+          "name": "Mascarilla Facial",
+          "description": "Aplicación de mascarillas especializadas según tu tipo de piel.",
+          "price": "60 Bs",
+          "duration": "30 min"
+        },
+        {
+          "name": "Peeling",
+          "description": "Exfoliación química o física para renovar la piel.",
+          "price": "100 Bs",
+          "duration": "45 min"
+        }
+      ]
+    },
+    {
+      "category": "Servicios Especializados",
+      "items": [
+        {
+          "name": "Depilación con Cera",
+          "description": "Depilación completa de piernas, axilas, brazos o zona íntima.",
+          "price": "80 Bs",
+          "duration": "45 min"
+        },
+        {
+          "name": "Depilación Láser",
+          "description": "Depilación permanente con tecnología láser avanzada.",
+          "price": "200 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Masaje Relajante",
+          "description": "Masaje corporal o facial para relajación y bienestar.",
+          "price": "110 Bs",
+          "duration": "60 min"
+        },
+        {
+          "name": "Paquete Belleza Total",
+          "description": "Corte + Colorimetría + Maquillaje + Manicure.",
+          "price": "450 Bs",
+          "duration": "240 min"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Alejandra T.",
+      "rating": 5,
+      "text": "Increíble transformación. Valentina entendió perfectamente lo que quería y el resultado superó mis expectativas. ¡Vuelvo cada mes!"
+    },
+    {
+      "name": "Camila S.",
+      "rating": 5,
+      "text": "Las uñas que me hizo Sofía son una obra de arte. El ambiente es super cómodo y relajante. 100% recomendado."
+    },
+    {
+      "name": "Mariana M.",
+      "rating": 5,
+      "text": "Daniela es una experta en maquillaje. Me hizo la cara para mi matrimonio y salí como una reina. Gracias Elegance Beauty!"
+    }
+  ]
+}
