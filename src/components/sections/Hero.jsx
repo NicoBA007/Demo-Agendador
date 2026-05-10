@@ -12,7 +12,11 @@ export const Hero = () => {
   const whatsappLink = `https://wa.me/${business.whatsapp_number}?text=${encodeURIComponent(business.whatsapp_message)}`;
 
   return (
-    <section id="inicio" className="relative flex min-h-[100dvh] w-full items-center justify-center overflow-hidden bg-background">
+    <section
+      id="inicio"
+      style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}
+      className="relative flex w-full items-center justify-center overflow-hidden bg-background"
+    >
 
       {/* Fondo con Gradiente */}
       <div className="absolute inset-0 z-0">
