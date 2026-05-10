@@ -169,3 +169,9 @@ html {
 .custom-scrollbar:hover::-webkit-scrollbar-thumb {
   background: var(--primary);
 }
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}

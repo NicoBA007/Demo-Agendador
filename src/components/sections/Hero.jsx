@@ -14,8 +14,7 @@ export const Hero = () => {
   return (
     <section
       id="inicio"
-      style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}
-      className="relative flex w-full items-center justify-center overflow-hidden bg-background"
+      className="relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-background"
     >
 
       {/* Fondo con Gradiente */}
@@ -23,7 +22,7 @@ export const Hero = () => {
         <img
           src={hero.bg_image}
           alt="Principal"
-          className="h-full w-full object-cover object-top"
+          className="h-full w-full object-cover object-top pointer-events-none"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
       </div>
