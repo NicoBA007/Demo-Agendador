@@ -1,0 +1,161 @@
+{
+  "business": {
+    "name": "Ink & Soul Tattoo Studio",
+    "whatsapp_number": "59169636225",
+    "whatsapp_message": "¡Hola! Me gustaría cotizar un diseño y agendar una sesión de tatuaje.",
+    "location": "Av. Pando, Edificio Recoleta, Cochabamba",
+    "phone": "+591 69636225",
+    "schedule": "Lunes a Sábado: 11:00 - 20:00",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.65!2d-66.16!3d-17.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIyJzQ4LjAiUyA2NsKwMDknMzYuMCJX!5e0!3m2!1ses!2sbo!4v1600000000000!5m2!1ses!2sbo",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "tiktok": "https://tiktok.com"
+    }
+  },
+  "seo": {
+    "title": "Ink & Soul Tattoo | Arte y Piel en Cochabamba",
+    "description": "Estudio profesional de tatuajes. Diseños personalizados, máxima higiene y artistas especializados en Cochabamba.",
+    "og_image": "https://plus.unsplash.com/premium_photo-1661714174263-0111aac4ecf1?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "favicon_emoji": "✒️"
+  },
+  "theme": {
+    "mode": "dark",
+    "variables": {
+      "--background": "#0a0a0a",
+      "--foreground": "#f5f5f5",
+      "--primary": "#e11d48",
+      "--primary-foreground": "#ffffff",
+      "--card": "#171717",
+      "--card-foreground": "#f5f5f5",
+      "--border": "#262626"
+    }
+  },
+  "hero": {
+    "title": "Tu Piel, Tu Historia, Nuestro Arte",
+    "subtitle": "Especialistas en realismo, fineline y diseños de autor bajo los más altos estándares de bioseguridad.",
+    "button_text": "Cotizar mi Tatuaje",
+    "bg_image": "https://plus.unsplash.com/premium_photo-1661714174263-0111aac4ecf1?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  "benefits": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Bioseguridad Total",
+      "description": "Material 100% desechable y esterilización de grado clínico para tu total tranquilidad."
+    },
+    {
+      "icon": "Palette",
+      "title": "Diseños de Autor",
+      "description": "No copiamos; creamos piezas únicas basadas en tus ideas y el estilo de cada artista."
+    },
+    {
+      "icon": "Award",
+      "title": "Tintas Premium",
+      "description": "Pigmentos veganos de marcas internacionales que garantizan colores duraderos y vibrantes."
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?q=80&w=800",
+    "https://images.unsplash.com/photo-1679621551579-8f7a24b467c2?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://plus.unsplash.com/premium_photo-1708126173513-e4c2353b511e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?q=80&w=800",
+    "https://images.unsplash.com/photo-1562379825-415aea84ebcf?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1662753361921-e6784e43f88b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  ],
+  "staff": [
+    {
+      "name": "Marcos 'Ink' Rios",
+      "role": "Artista Realismo — Black & Grey",
+      "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=500",
+      "description": "Maestro del Black and Grey y realismo fotográfico con más de 10 años de trayectoria."
+    },
+    {
+      "name": "Elena V.",
+      "role": "Especialista Fine Line & Geometría",
+      "image": "https://images.unsplash.com/photo-1677286061466-7cc3531e5027?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experta en trazos ultra finos, micro-realismo y geometría sagrada."
+    },
+    {
+      "name": "Kevin T.",
+      "role": "Piercer Profesional",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=500",
+      "description": "Especialista en perforaciones corporales y joyería de titanio de grado implante."
+    }
+  ],
+  "services": [
+    {
+      "category": "Tatuajes de Autor",
+      "items": [
+        {
+          "name": "Minimalismo / Fineline",
+          "description": "Trazos delicados y elegantes para diseños pequeños o medianos.",
+          "price": "Desde 200 Bs",
+          "duration": "1 - 2 horas"
+        },
+        {
+          "name": "Realismo Black & Grey",
+          "description": "Retratos o piezas detalladas con profundidad y sombreado experto.",
+          "price": "Desde 700 Bs",
+          "duration": "4+ horas"
+        },
+        {
+          "name": "Traditional / Old School",
+          "description": "Colores sólidos y líneas gruesas clásicas que nunca pasan de moda.",
+          "price": "Desde 350 Bs",
+          "duration": "2 - 3 horas"
+        }
+      ]
+    },
+    {
+      "category": "Body Piercing",
+      "items": [
+        {
+          "name": "Perforación Básica",
+          "description": "Lóbulo, hélix o nariz. Incluye pieza inicial de acero quirúrgico.",
+          "price": "80 Bs",
+          "duration": "20 min"
+        },
+        {
+          "name": "Piercing Especializado",
+          "description": "Septum, industrial o lengua con técnica aséptica avanzada.",
+          "price": "150 Bs",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "category": "Mantenimiento y Cover",
+      "items": [
+        {
+          "name": "Cover-Up",
+          "description": "Cubrimos tatuajes antiguos con diseños nuevos y mejorados.",
+          "price": "Cotización",
+          "duration": "Variable"
+        },
+        {
+          "name": "Retoque de Color",
+          "description": "Devuélvele la vida a tus piezas antiguas con pigmentos nuevos.",
+          "price": "Desde 150 Bs",
+          "duration": "1 hora"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Fernando G.",
+      "rating": 5,
+      "text": "Marcos es un genio del realismo. El nivel de detalle en el retrato que me hizo es increíble. El estudio es impecable."
+    },
+    {
+      "name": "Lucía B.",
+      "rating": 5,
+      "text": "Me hice mi primer tatuaje con Elena (Fine Line) y no dolió nada. Todo súper limpio y profesional. ¡Gracias!"
+    },
+    {
+      "name": "Andrés P.",
+      "rating": 5,
+      "text": "El mejor lugar para piercings en Cocha. Kevin te explica todo el proceso de curación súper bien."
+    }
+  ]
+}

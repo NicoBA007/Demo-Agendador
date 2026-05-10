@@ -4,6 +4,7 @@ import barberConfig from '@/data/barber-config.json';
 import spaConfig from '@/data/spa-config.json';
 import dentalConfig from '@/data/dental-config.json';
 import salonConfig from '@/data/salon-config.json';
+import tattooConfig from '@/data/tattoo-config.json';
 
 export const useAppData = () => {
   const [data, setData] = useState(() => {
@@ -16,6 +17,7 @@ export const useAppData = () => {
     if (demoType === 'dentista') return dentalConfig;
     if (demoType === 'barberia') return barberConfig;
     if (demoType === 'salon') return salonConfig;
+    if (demoType === 'tatuajes') return tattooConfig;
 
     // Si no hay parámetro, o si escriben mal, por defecto mostramos la barbería
     return barberConfig;
