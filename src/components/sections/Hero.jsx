@@ -1,18 +1,19 @@
 import { motion } from 'framer-motion';
 import { ChevronDown, MessageCircle } from 'lucide-react';
 import { useAppData } from '@/hooks/useAppData';
+import { Link, useSearchParams } from 'react-router-dom';
+import { Calendar } from 'lucide-react';
 
 export const Hero = () => {
   const { hero, business } = useAppData();
 
   if (!hero || !business) return null;
 
-  // Generamos el link de WhatsApp dinámico
   const whatsappLink = `https://wa.me/${business.whatsapp_number}?text=${encodeURIComponent(business.whatsapp_message)}`;
 
   return (
     <section id="inicio" className="relative flex min-h-[100dvh] w-full items-center justify-center overflow-hidden bg-background">
-      
+
       {/* Fondo con Gradiente */}
       <div className="absolute inset-0 z-0">
         <img
@@ -49,15 +50,14 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-col items-center space-y-4"
         >
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to={`/agendar?${new URLSearchParams(window.location.search).toString()}`}
             className="group relative inline-flex h-16 items-center justify-center overflow-hidden rounded-full bg-primary px-10 text-lg font-bold text-primary-foreground transition-all hover:scale-105 shadow-xl shadow-primary/30"
           >
-            <MessageCircle className="mr-2 h-5 w-5" />
+            <Calendar className="mr-2 h-5 w-5" />
             {hero.button_text}
-          </a>
+          </Link>
+
           <p className="text-sm font-medium text-foreground/60">
             Escríbenos por WhatsApp para agendar tu cita
           </p>

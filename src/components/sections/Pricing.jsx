@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, MessageCircle } from 'lucide-react';
 import { useAppData } from '@/hooks/useAppData';
+import { Link } from 'react-router-dom';
+import { Calendar } from 'lucide-react';
 
 export const Pricing = () => {
-  // Ahora también traemos 'business' para armar el link de WhatsApp
   const { services, business } = useAppData();
   const [openCategory, setOpenCategory] = useState(0);
 
@@ -109,15 +110,13 @@ export const Pricing = () => {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="mt-12 flex justify-center"
         >
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to={`/agendar?${new URLSearchParams(window.location.search).toString()}`}
             className="group relative inline-flex h-14 items-center justify-center overflow-hidden rounded-full bg-transparent border-2 border-primary px-8 text-base font-semibold text-primary transition-all hover:bg-primary hover:text-primary-foreground shadow-sm"
           >
-            <MessageCircle className="mr-2 h-5 w-5" />
-            Consultar Disponibilidad
-          </a>
+            <Calendar className="mr-2 h-5 w-5" />
+            Reservar Turno Ahora
+          </Link>
         </motion.div>
 
       </div>
