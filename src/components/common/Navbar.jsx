@@ -41,7 +41,17 @@ export const Navbar = () => {
   const handleScroll = (e, path) => {
     e.preventDefault();
     setIsOpen(false);
-    navigate(`/?demo=${currentDemo}${path}`);
+
+    const id = path.replace('#', '');
+
+    if (location.pathname === '/') {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      navigate(`/?demo=${currentDemo}`);
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }, 300);
+    }
   };
 
   return (
